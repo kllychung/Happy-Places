@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.HappyPlaces" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorAccent</item>
+        <item name="colorOnPrimary">@color/design_default_color_on_primary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorPrimary</item>
+        <item name="colorSecondaryVariant">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/design_default_color_on_primary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="CustomNoActionBarTheme" parent="@style/Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+    <style name="CustomToolBarStyle">
+        <item name="android:textColorPrimary" >@color/white_color</item>
+        <item name="android:colorControlNormal">@color/white_color</item>
+    </style>
+</resources>
